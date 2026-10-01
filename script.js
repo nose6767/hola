@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://mlagnpmvvzylbuzrwfiy.supabase.co";
-const SUPABASE_KEY = "sb_publishable_a5RH6hlBT6C6GkBn8T0pEg_lhqWkx0p";
+const SUPABASE_URL = "https://lhohrbxndxxwksvcqqlc.supabase.co/rest/v1/";
+const SUPABASE_KEY = "sb_publishable_6SFh3MUmZXrCtaEzZzwSbA_ua5so9tW";
 const BUCKET = "user-files";
 const { createClient } = window.supabase;
 const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PEGA_AQUI") && !SUPABASE_KEY.includes("PEGA_AQUI");
